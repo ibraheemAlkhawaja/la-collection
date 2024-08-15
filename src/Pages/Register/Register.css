@@ -1,0 +1,87 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(172, 172, 210);
+    color: #fff;
+}
+.wrapper{
+    width: 420px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 20px 0px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #fff;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+
+}
+.wrapper .remmber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.remmber-forgot label input{
+    accent-color: #fff;
+    margin-left: 4px;
+}
+.remmber-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remmber-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.remmber-forgot{
+    padding-top: 10px;
+}
+@media  all and (max-width:776px ){
+    .wrapper{
+        width: 350px;
+    }
+}
